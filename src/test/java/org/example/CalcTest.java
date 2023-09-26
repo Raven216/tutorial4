@@ -11,4 +11,9 @@ public class CalcTest {
         assertEquals(4, c.add(2,2));
     }
 
+ @Test
+    void testAddition() {
+        assertEquals(2, c.add(4,2));
+    }
+
 }
